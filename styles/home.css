@@ -3,6 +3,24 @@
     background-position: 63.21% 50%;
     
 }
+.bg{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("images/pick-food.jpg");
+    background-size: cover;
+    color: white;
+    
+}
+.bg2 {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("images/pay-bills.jpg");
+    background-size: cover;
+    color: white;
+
+}
+.bg3 {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("images/dilvery.jpg");
+    background-size: cover;
+    color: white;
+
+}
 
 .u-section-1 .u-sheet-1 {
     min-height: 1054px;

@@ -2,9 +2,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from '../Components/Navbar'
 import styles from '../styles/Home.module.css'
-import Smart1 from '../styles/images/smart-protect-1.jpg'
-import Smart2 from "../styles/images/smart-protect-2.jpg";
-import Smart3 from "../styles/images/smart-protect-3.jpg";
+import Smart1 from '../styles/images/orange-icon-removebg-preview.png'
+import Smart2 from "../styles/images/peach-icon-removebg-preview.png";
+import Smart3 from "../styles/images/guava-icon-removebg-preview.png";
+import Smart4 from "../styles/images/loquat-icon-removebg-preview.png";
 import F1 from '../styles/images/orange-service-removebg-preview.png'
 import F2 from "../styles/images/peach-removebg-preview.png";
 import F3 from "../styles/images/amrood-services-removebg-preview.png";
@@ -70,14 +71,11 @@ export default function Home() {
 						>
 							Call Now
 						</a>
-						<p className="u-text u-text-body-alt-color u-text-4">
-							Consultancy with Excellency.
-						</p>
 					</div>
 				</section>
 			</div>
 			<div class="container my-5 py-2">
-				<h2 class="text-center font-weight-bold my-5">Our Services</h2>
+				<h2 class="text-center font-weight-bold my-5">Our WholeSales Fruits</h2>
 				<div class="row">
 					<div
 						data-aos="fade-up"
@@ -89,7 +87,7 @@ export default function Home() {
 						<div class="mx-auto">
 							<Image src={Smart1} alt="Anti-spam" />
 						</div>
-						<h4>Anti-spam</h4>
+						<h4>Orange</h4>
 						<p>Lorem ipsum dolor sit amet porro his no his deleniti</p>
 					</div>
 					<div
@@ -100,9 +98,14 @@ export default function Home() {
 						class="col-md-3 text-center"
 					>
 						<div class="mx-auto">
-							<Image src={Smart2} alt="Phishing Detect" />
+							<Image
+								src={Smart2}
+								width={125}
+								height={125}
+								alt="Phishing Detect"
+							/>
 						</div>
-						<h4>Phishing Detect</h4>
+						<h4>Peach</h4>
 						<p>Ne error antiopam usu. Sed vocen concludaturque ea</p>
 					</div>
 					<div
@@ -113,9 +116,9 @@ export default function Home() {
 						class="col-md-3 text-center"
 					>
 						<div class="mx-auto">
-							<Image src={Smart3} alt="Smart Scan" />
+							<Image src={Smart3} width={125} height={125} alt="Smart Scan" />
 						</div>
-						<h4>Smart Scan</h4>
+						<h4>Guava</h4>
 						<p>Et usu ocurreret elaboraret doctus prodesse assueverit.</p>
 					</div>
 					<div
@@ -126,9 +129,9 @@ export default function Home() {
 						class="col-md-3 text-center"
 					>
 						<div class="mx-auto">
-							<Image src={Smart3} alt="Smart Scan" />
+							<Image src={Smart4} width={125} height={125} alt="Smart Scan" />
 						</div>
-						<h4>Smart Scan</h4>
+						<h4>Loquat</h4>
 						<p>Et usu ocurreret elaboraret doctus prodesse assueverit.</p>
 					</div>
 				</div>
@@ -482,58 +485,43 @@ export default function Home() {
 				</div>
 			</div>
 			<Testimonials />
-			<section
-				className="u-clearfix u-section-11"
-				data-aos="slide-up"
-				id="sec-69dc"
-			>
-				<div className="u-clearfix u-sheet u-sheet-1">
-					<div className="u-expanded-width u-list u-list-1">
-						<div className="u-repeater u-repeater-1">
-							<div className="u-align-center u-container-style u-list-item u-repeater-item">
-								<div className="u-container-layout u-similar-container u-container-layout-1">
-									<span className="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-1">
-										<Image src={Icon} alt="USS Enterprise ICT company" />
-									</span>
-									<h3 className="u-text u-text-1">
-										Committed with dedication.
-									</h3>
-								</div>
+			<div className="container">
+				<h1 className="text-center font-extrabold leading-normal">
+					3 Steps To Get
+				</h1>
+				<h1 className="text-center font-extrabold leading-normal">
+					Fresh Food
+				</h1>
+				<div className="row">
+					<div className="col-md-4">
+						<div class="card bg" style={{ width: "15rem;", height: "15rem" }}>
+							<div class="card-body text-center mt-[4rem]">
+								<h2 class="card-title " style={{ color: "white" }}>
+									Pick a Food
+								</h2>
 							</div>
-							<div className="u-align-center u-container-style u-list-item u-repeater-item">
-								<div className="u-container-layout u-similar-container u-container-layout-2">
-									<span className="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-2">
-										<Image src={Icon} alt="USS Enterprise ICT company" />
-									</span>
-									<h3 className="u-text u-text-2">
-										&nbsp;Teamwork &amp; Synchronization.
-									</h3>
-								</div>
+						</div>
+					</div>
+					<div className="col-md-4">
+						<div class="card bg2" style={{ width: "15rem;", height: "15rem" }}>
+							<div class="card-body text-center mt-[4rem]">
+								<h2 class="card-title " style={{ color: "white" }}>
+									Pay Bills
+								</h2>
 							</div>
-							<div className="u-align-center u-container-style u-list-item u-repeater-item">
-								<div className="u-container-layout u-similar-container u-container-layout-3">
-									<span className="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-3">
-										<Image src={Icon} alt="USS Enterprise ICT company" />
-									</span>
-									<h3 className="u-text u-text-3">
-										Compliance professionally.
-									</h3>
-								</div>
-							</div>
-							<div className="u-align-center u-container-style u-list-item u-repeater-item">
-								<div className="u-container-layout u-similar-container u-container-layout-4">
-									<span className="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-4">
-										<Image src={Icon} alt="USS Enterprise ICT company" />
-									</span>
-									<h3 className="u-text u-text-4">
-										&nbsp;Best Recommendations.{" "}
-									</h3>
-								</div>
+						</div>
+					</div>
+					<div className="col-md-4">
+						<div class="card bg3" style={{ width: "15rem;", height: "15rem" }}>
+							<div class="card-body text-center mt-[4rem]">
+								<h2 class="card-title " style={{ color: "white" }}>
+									Take Delivery
+								</h2>
 							</div>
 						</div>
 					</div>
 				</div>
-			</section>
+			</div>
 			<Contactus />
 			<Footer />
 		</div>
