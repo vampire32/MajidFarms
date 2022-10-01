@@ -15,7 +15,7 @@ import icon3 from "../styles/images/icon3.png";
 import icon4 from "../styles/images/icon4.png";
 import food from '../styles/images/peaches.jpeg'
 import Product1 from '../styles/images/CaraNavelOgrange.jpg'
-import Product2 from "../styles/images/Sweet Orange.jpg";
+import Product2 from "../styles/images/SweetOrange.jpg";
 import Product3 from '../styles/images/amrood.jpg'
 import Product4 from "../styles/images/loquat.jpg";
 import Product5 from '../styles/images/peach.jpg'
