@@ -462,7 +462,7 @@ export default function Home() {
 								<figure>
 									<Image src={Product3} alt="#" />
 								</figure>
-								<h3>Valencia Ogrange</h3>
+								<h3>Guava</h3>
 							</div>
 						</div>
 						<div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 padding_left0">
@@ -470,7 +470,7 @@ export default function Home() {
 								<figure>
 									<Image src={Product4} width={1100} alt="#" />
 								</figure>
-								<h3>Clementines Orange</h3>
+								<h3>Loquat</h3>
 							</div>
 						</div>
 						<div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 padding_right0">
