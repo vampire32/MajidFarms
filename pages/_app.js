@@ -3,6 +3,8 @@ import '../styles/navbar.css'
 import '../styles/home.css'
 import '../styles/style.css'
 import '../styles/responsive.css'
+import '../styles/About.css'
+import '../styles/landing.css'
 
 import Head from "next/head";
 import Script from 'next/script';
