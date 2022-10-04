@@ -1,8 +1,12 @@
 import React from 'react'
+import Image from "next/image";
+import Avatar1 from "../styles/images/avatar1.jpeg";
+import Avatar2 from "../styles/images/avatar2.jpeg";
+import Avatar3 from "../styles/images/avatar3.jpeg";
 
 const Testimonials = () => {
   return (
-		<div className="container my-24 px-6 margin-mobile mt-[55rem] ">
+		<div className="container my-24 px-6 margin-mobile  ">
 			{" "}
 			<section class="mb-32 text-gray-800 text-center">
 				<h2 class="text-3xl font-bold mb-12">Testimonials</h2>
@@ -14,16 +18,23 @@ const Testimonials = () => {
 				>
 					<div class="carousel-inner relative w-full overflow-hidden">
 						<div class="carousel-item active relative float-left w-full">
-							<img
-								class="rounded-full shadow-lg mb-6 mx-auto"
-								src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg"
-								alt="avatar"
-								style={{ width: "150px" }}
-							/>
+							<div class="">
+								<Image
+									style={{
+										borderRadius: "9999px",
+										marginLeft: "auto",
+										marginRight: "auto",
+									}}
+									src={Avatar1}
+									alt="avatar"
+									width={150}
+									height={150}
+								/>
+							</div>
 							<div class="flex flex-wrap justify-center">
 								<div class="grow-0 shrink-0 basis-auto w-full lg:w-8/12 px-3">
-									<h5 class="text-lg font-bold mb-3">Maria Kate</h5>
-									<p class="font-medium text-gray-700 mb-4">Photographer</p>
+									<h5 class="text-lg font-bold mb-3">Hassan Tariq</h5>
+
 									<p class="text-gray-500 mb-6">
 										<svg
 											aria-hidden="true"
@@ -40,12 +51,8 @@ const Testimonials = () => {
 												d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
 											></path>
 										</svg>
-										In ac turpis justo. Vivamus auctor quam vitae odio feugiat
-										pulvinar. Sed semper ligula sed lorem tincidunt dignissim.
-										Nam sed cursus lectus. Proin non rutrum magna. Proin
-										gravida, justo et imperdiet tristique, turpis nisi viverra
-										est, nec posuere ex arcu sit amet erat. Sed a dictum sem.
-										Duis pretium condimentum nulla.
+										I think this is a fantastic farm in our area, with excellent
+										work being done.
 									</p>
 									<ul class="flex justify-center mb-0">
 										<li>
@@ -138,16 +145,21 @@ const Testimonials = () => {
 							</div>
 						</div>
 						<div class="carousel-item relative float-left w-full">
-							<img
-								class="rounded-full shadow-lg mb-6 mx-auto"
-								src="https://mdbootstrap.com/img/Photos/Avatars/img%20(32).jpg"
+							<Image
+								style={{
+									borderRadius: "9999px",
+									marginLeft: "auto",
+									marginRight: "auto",
+								}}
+								src={Avatar2}
 								alt="avatar"
-								style={{ width: "150px" }}
+								width={150}
+								height={150}
 							/>
 							<div class="flex flex-wrap justify-center">
 								<div class="grow-0 shrink-0 basis-auto w-full lg:w-8/12 px-3">
-									<h5 class="text-lg font-bold mb-3">John Doe</h5>
-									<p class="font-medium text-gray-700 mb-4">Web Developer</p>
+									<h5 class="text-lg font-bold mb-3">Mujeeb Khan</h5>
+
 									<p class="text-gray-500 mb-6">
 										<svg
 											aria-hidden="true"
@@ -164,10 +176,7 @@ const Testimonials = () => {
 												d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
 											></path>
 										</svg>
-										Maecenas auctor, quam eget tincidunt pretium, felis diam
-										semper turpis, sed scelerisque diam libero facilisis libero.
-										Quisque vitae semper metus. Aliquam eu dui aliquam, faucibus
-										metus quis, elementum nunc.
+										Excellent service, good quality and amount of oranges.
 									</p>
 									<ul class="flex justify-center mb-0">
 										<li>
@@ -260,16 +269,21 @@ const Testimonials = () => {
 							</div>
 						</div>
 						<div class="carousel-item relative float-left w-full">
-							<img
-								class="rounded-full shadow-lg mb-6 mx-auto"
-								src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg"
+							<Image
+								style={{
+									borderRadius: "9999px",
+									marginLeft: "auto",
+									marginRight: "auto",
+								}}
+								src={Avatar3}
 								alt="avatar"
-								style={{ width: "150px" }}
+								width={150}
+								height={150}
 							/>
 							<div class="flex flex-wrap justify-center">
 								<div class="grow-0 shrink-0 basis-auto w-full lg:w-8/12 px-3">
-									<h5 class="text-lg font-bold mb-3">Anna Deynah</h5>
-									<p class="font-medium text-gray-700 mb-4">UX Designer</p>
+									<h5 class="text-lg font-bold mb-3">Shoaib Khan</h5>
+
 									<p class="text-gray-500 mb-6">
 										<svg
 											aria-hidden="true"
@@ -286,10 +300,7 @@ const Testimonials = () => {
 												d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
 											></path>
 										</svg>
-										Duis sagittis, turpis in ullamcorper venenatis, ligula nibh
-										porta dui, sit amet rutrum enim massa in ante. Curabitur in
-										justo at lorem laoreet ultricies. Nunc ligula felis,
-										sagittis eget nisi vitae.
+										They are delivering this excellent product to peoples homes.
 									</p>
 									<ul class="flex justify-center mb-0">
 										<li>

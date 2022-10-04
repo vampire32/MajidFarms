@@ -19,7 +19,14 @@ const Footer = () => {
 							Majid Farms
 						</a>
 						<p>
-							Adipisicing elit qui sit commodo velit est cillum ut elit elit consequat nisi. Consequat id dolor pariatur eiusmod voluptate sint eiusmod enim ad laboris sunt ipsum pariatur esse. Occaecat ut ullamco ipsum ad reprehenderit commodo sit irure. Velit sint elit ut consequat nulla. Occaecat mollit sunt officia id occaecat nisi et aute est occaecat.
+							Our goal is to transform the food system by offering a wholesome,
+							natural substitute for processed food. We offer more than just
+							organic produce delivery. We are lucky to be able to provide it to
+							our family because we manually gather it. Come to one of our farm
+							events so we can give you a handshake and express our gratitude.
+							To consume the recommended daily servings of fruits you must have
+							produce delivered to your house, workplace, or a designated pickup
+							site on a regular basis
 						</p>
 					</div>
 					<div className="col-md">
@@ -34,7 +41,7 @@ const Footer = () => {
 									<a>Services</a>
 								</Link>
 							</li>
-							
+
 							<li>
 								<Link href="/About">
 									<a>About Us</a>
@@ -43,9 +50,7 @@ const Footer = () => {
 						</ul>
 					</div>
 					<div className="col-md">
-						<ul className="list-unstyled nav-links">
-							
-						</ul>
+						<ul className="list-unstyled nav-links"></ul>
 					</div>
 
 					<div className="col-md text-md-center">
@@ -81,9 +86,7 @@ const Footer = () => {
 					<div className="col-12 text-center">
 						<div className="copyright mt-5 pt-5">
 							<p>
-								<small>
-									&copy; 2022 All Rights Reserved - Majid Farms{" "}
-								</small>
+								<small>&copy; 2022 All Rights Reserved - Majid Farms </small>
 							</p>
 						</div>
 					</div>

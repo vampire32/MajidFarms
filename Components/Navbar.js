@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import React from 'react'
+import Image from "next/image";
+import Logo from '../styles/images/Brand.PNG'
 
 const Navbar = () => {
   return (
@@ -10,7 +12,10 @@ const Navbar = () => {
 			>
 				<div className="container-fluid">
 					<a className="navbar-brand">
-						<Link href="/">Majid Farms</Link>
+						<Image src={Logo} alt="" width={40} height={40} />
+						<a style={{marginLeft:"2rem"}}>
+							<Link href="/">MAJID FRUIT FARMS</Link>
+						</a>
 					</a>
 					<button
 						className="navbar-toggler"

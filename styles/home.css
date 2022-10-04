@@ -21,6 +21,30 @@
     color: white;
 
 }
+.product-bg1{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("images/CaraNavelOgrange.jpg");
+        background-size: cover;
+        color: white;
+
+}
+.product-bg2 {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("images/amrood.jpg");
+    background-size: cover;
+    color: white;
+
+}
+.product-bg3 {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("images/loquat.jpg");
+    background-size: cover;
+    color: white;
+
+}
+.product-bg4 {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("images/peach.jpg");
+    background-size: cover;
+    color: white;
+
+}
 
 .u-section-1 .u-sheet-1 {
     min-height: 1054px;
@@ -355,7 +379,7 @@ button {
 }
 .u-section-10 {
     min-height: 659px;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../styles/images/peaches.jpeg");
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../styles/images/what.jpg");
        background-repeat: no-repeat;
     background-size: cover;
     background-position: 63.21% 50%;

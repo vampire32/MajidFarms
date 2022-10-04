@@ -14,7 +14,7 @@ import icon1 from '../styles/images/icon1.png'
 import icon2 from "../styles/images/icon2.png";
 import icon3 from "../styles/images/icon3.png";
 import icon4 from "../styles/images/icon4.png";
-import food from '../styles/images/peaches.jpeg'
+import food from '../styles/images/why.jpg'
 import Product1 from '../styles/images/CaraNavelOgrange.jpg'
 import Product2 from "../styles/images/SweetOrange.jpg";
 import Product3 from '../styles/images/amrood.jpg'
@@ -47,15 +47,14 @@ export default function Home() {
 					<Navbar />
 					<div className="u-clearfix u-sheet u-sheet-1">
 						<h1 className="u-align-left u-text u-text-palette-3-base u-text-1">
-							<b>Majid Food Farms</b>
+							<b>Majid Fruit Farms</b>
 							<br />
 							<b style={{ color: "white" }}> c​ompany</b>
 						</h1>
 						<p className="u-text u-text-body-alt-color u-text-3">
-							Id aliqua et velit laborum culpa exercitation est incididunt esse
-							dolor esse consectetur exercitation. Mollit nostrud velit ullamco
-							exercitation adipisicing consequat tempor aute elit. Velit aliquip
-							veniam nisi voluptate in ipsum.
+							We are famous for our excellent oranges, but we also have a
+							variety of other fruits, including peaches, guavas, and loquats.
+							We offer our fruits to a large number of consumers.
 							<b>
 								<i>
 									“
@@ -66,7 +65,7 @@ export default function Home() {
 							</b>
 						</p>
 						<a
-							href="tel:+92-21-34390018"
+							href="tel:+92-3459371589"
 							className="u-active-white u-border-2 u-border-hover-white u-border-white u-btn u-button-style u-hover-white u-none u-text-active-black u-text-body-alt-color u-text-hover-palette-1-base u-btn-1"
 						>
 							Call Now
@@ -88,7 +87,7 @@ export default function Home() {
 							<Image src={Smart1} alt="Anti-spam" />
 						</div>
 						<h4>Orange</h4>
-						<p>Lorem ipsum dolor sit amet porro his no his deleniti</p>
+						
 					</div>
 					<div
 						data-aos="fade-up"
@@ -106,7 +105,7 @@ export default function Home() {
 							/>
 						</div>
 						<h4>Peach</h4>
-						<p>Ne error antiopam usu. Sed vocen concludaturque ea</p>
+						
 					</div>
 					<div
 						data-aos="fade-up"
@@ -119,7 +118,7 @@ export default function Home() {
 							<Image src={Smart3} width={125} height={125} alt="Smart Scan" />
 						</div>
 						<h4>Guava</h4>
-						<p>Et usu ocurreret elaboraret doctus prodesse assueverit.</p>
+						
 					</div>
 					<div
 						data-aos="fade-up"
@@ -132,7 +131,7 @@ export default function Home() {
 							<Image src={Smart4} width={125} height={125} alt="Smart Scan" />
 						</div>
 						<h4>Loquat</h4>
-						<p>Et usu ocurreret elaboraret doctus prodesse assueverit.</p>
+						
 					</div>
 				</div>
 			</div>
@@ -148,15 +147,12 @@ export default function Home() {
 							data-aos-once="true"
 							class="col-md-6"
 						>
-							<h2 class="font-weight-bold">Take a look inside</h2>
-							<p class="my-4">
-								Te iisque labitur eos, nec sale argumentum scribentur no,
-								<br /> augue disputando in vim. Erat fugit sit at, ius lorem
-								deserunt deterruisset no.
+							<h2 class="font-weight-bold">Oranges</h2>
+							<p class="my-4 text-[30px]">
+								We believe in the quality of our products, which include navel
+								and sweet oranges.Oranges are a specialty of our farms and the
+								region
 							</p>
-							<a href="#" class="btn my-4 font-weight-bold atlas-cta cta-blue">
-								Learn More
-							</a>
 						</div>
 						<div
 							data-aos="fade-left"
@@ -183,15 +179,11 @@ export default function Home() {
 							data-aos-once="true"
 							class="col-md-6 flex-md-last"
 						>
-							<h2 class="font-weight-bold text-white">Safe and reliable</h2>
-							<p class="my-4">
-								Duo suas detracto maiestatis ad, commodo lucilius invenire nec
-								ad,
-								<br /> eum et oratio disputationi. Falli lobortis his ad
+							<h2 class="font-weight-bold text-white">Peaches</h2>
+							<p class="my-4 text-[30px]">
+								Our farm produces fresh peaches every season, and we then
+								provide them to consumers in quality
 							</p>
-							<a href="#" class="btn my-4 font-weight-bold atlas-cta cta-blue">
-								Learn More
-							</a>
 						</div>
 						<div
 							data-aos="fade-right"
@@ -228,15 +220,12 @@ export default function Home() {
 							data-aos-once="true"
 							class="col-md-6"
 						>
-							<h2 class="font-weight-bold">Take a look inside</h2>
-							<p class="my-4">
-								Te iisque labitur eos, nec sale argumentum scribentur no,
-								<br /> augue disputando in vim. Erat fugit sit at, ius lorem
-								deserunt deterruisset no.
+							<h2 class="font-weight-bold">Guava</h2>
+							<p class="my-4 text-[30px]">
+								Guava cultivation is also a part of our fields, and the quality
+								of these fruits is unmatched in the region. The pink guava that
+								grows on our farms is the best guava.
 							</p>
-							<a href="#" class="btn my-4 font-weight-bold atlas-cta cta-blue">
-								Learn More
-							</a>
 						</div>
 					</div>
 				</div>
@@ -253,15 +242,12 @@ export default function Home() {
 							data-aos-once="true"
 							class="col-md-6 flex-md-last"
 						>
-							<h2 class="font-weight-bold text-white">Safe and reliable</h2>
-							<p class="my-4">
-								Duo suas detracto maiestatis ad, commodo lucilius invenire nec
-								ad,
-								<br /> eum et oratio disputationi. Falli lobortis his ad
+							<h2 class="font-weight-bold text-white">Loquat</h2>
+							<p class="my-4 text-[30px]">
+								Another member of our family is the loquat, which we grow in
+								modest quantities but with the highest quality. They are tasty
+								and sweet.
 							</p>
-							<a href="#" class="btn my-4 font-weight-bold atlas-cta cta-blue">
-								Learn More
-							</a>
 						</div>
 						<div
 							data-aos="fade-right"
@@ -282,11 +268,7 @@ export default function Home() {
 						<div class="col-md-8">
 							<div class="titlepage">
 								<h2>Why Choose Us? </h2>
-								<p>
-									there isnt anything embarrassing hidden in the middle of text.
-									All the Lorem Ipsum generators on the Internet tend to repeat
-									predefined{" "}
-								</p>
+								<p style={{fontSize:"25px"}}>Since We Deliver More Than Organic Produce</p>
 							</div>
 						</div>
 					</div>
@@ -304,8 +286,8 @@ export default function Home() {
 											<div class="choose_text">
 												<h3>Excellent Service</h3>
 												<p>
-													It is a long established fact that a reader will be
-													distracted by the readable content of a
+													You selected the fruit item, made payment, and it was
+													delivered to the designated address.
 												</p>
 											</div>
 										</div>
@@ -316,10 +298,11 @@ export default function Home() {
 												<Image src={icon2} alt="#" />
 											</i>
 											<div class="choose_text">
-												<h3>Clean Working</h3>
+												<h3>EAT MORE HEALTHILY</h3>
 												<p>
-													It is a long established fact that a reader will be
-													distracted by the readable content of a
+													To consume the recommended daily servings of fruits
+													you must have produce delivered to your house or place
+													of business on a regular basis.
 												</p>
 											</div>
 										</div>
@@ -332,8 +315,9 @@ export default function Home() {
 											<div class="choose_text">
 												<h3>Quality And Reliability</h3>
 												<p>
-													It is a long established fact that a reader will be
-													distracted by the readable content of a
+													Since we previously stated that we believe in quality
+													over quantity, the quality of the fruits is assessed
+													before delivery.
 												</p>
 											</div>
 										</div>
@@ -346,8 +330,9 @@ export default function Home() {
 											<div class="choose_text">
 												<h3>Expert Farmer</h3>
 												<p>
-													It is a long established fact that a reader will be
-													distracted by the readable content of a
+													Our skilled farmers are aware of the quality of the
+													seeds, soil, and products and are aware of when the
+													products should be harvested.
 												</p>
 											</div>
 										</div>
@@ -367,9 +352,7 @@ export default function Home() {
 				<div class="container">
 					<div class="row">
 						<div class="col-md-5">
-							<a class="read_more" href="#">
-								Read More
-							</a>
+							
 						</div>
 					</div>
 				</div>
@@ -388,16 +371,20 @@ export default function Home() {
 										What We Do
 									</span>
 									<p className="u-align-justify u-text u-text-body-alt-color u-text-2">
-										Irure anim fugiat labore dolor consectetur eu ut Lorem quis
-										occaecat cillum. Duis dolor laborum sint sit exercitation
-										mollit pariatur nisi ullamco minim incididunt occaecat
-										cupidatat enim. Fugiat est nisi incididunt veniam est
-										exercitation. Exercitation ea anim laboris esse dolor
-										laborum. Duis fugiat nulla aliqua velit elit occaecat fugiat
-										exercitation. Nisi aliqua elit quis eiusmod magna cupidatat
-										exercitation elit occaecat. Non proident officia aute
-										ullamco. Ad ut in aliquip duis. Voluptate nulla id dolore
-										do.
+										Our goal is to transform the food system by offering a
+										wholesome, natural substitute for processed food. We offer
+										more than just organic produce delivery. We are lucky to be
+										able to provide it to our family because we manually gather
+										it. Come to one of our farm events so we can give you a
+										handshake and express our gratitude. To consume the
+										recommended daily servings of fruits you must have produce
+										delivered to your house, workplace, or a designated pickup
+										site on a regular basis. Select (and modify) the boxs size
+										and configuration to suit your needs. To accommodate your
+										schedule, you can even miss deliveries or alter the
+										frequency of your deliveries. You have the opportunity to
+										get to know your farmer and take an active role in our
+										farming community.
 									</p>
 								</div>
 							</div>
@@ -409,81 +396,67 @@ export default function Home() {
 										data-image-width="241"
 										data-image-height="192"
 									></div>
-									<p className="u-text u-text-black u-text-3 text-white">
-										Irure anim fugiat labore dolor consectetur eu ut Lorem quis
-										occaecat cillum. Duis dolor laborum sint sit exercitation
-										mollit pariatur nisi ullamco minim incididunt occaecat
-										cupidatat enim. Fugiat est nisi incididunt veniam est
-										exercitation. Exercitation ea anim laboris esse dolor
-										laborum. Duis fugiat nulla aliqua velit elit occaecat fugiat
-										exercitation. Nisi aliqua elit quis eiusmod magna cupidatat
-										exercitation elit occaecat. Non proident officia aute
-										ullamco. Ad ut in aliquip duis. Voluptate nulla id dolore
-										do.
-									</p>
+									<p className="u-text u-text-black u-text-3 text-white"></p>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-			<div class="product">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6">
-							<div class="titlepage">
-								<h2>Our Product</h2>
+			<div className="conatiner">
+				<h2 className="text-center">Our Products</h2>
+				<div className="row justify-center">
+					<div className="col-md-5">
+						<div
+							class="card product-bg1"
+							style={{ width: "15rem;", height: "15rem" }}
+						>
+							<div class="card-body text-center mt-[4rem]">
+								<h2 class="card-title " style={{ color: "white" }}>
+									Cara Navel Ogrange
+								</h2>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 padding_left0">
-							<div class="product_box">
-								<figure>
-									<div className="product">
-										<Image src={Product1} height={800} alt="#" />
-									</div>
-								</figure>
-								<h3 class="">Cara Navel Ogrange</h3>
+					<div className="col-md-5">
+						<div
+							class="card product-bg2"
+							style={{ width: "15rem;", height: "15rem" }}
+						>
+							<div class="card-body text-center mt-[4rem]">
+								<h2 class="card-title " style={{ color: "white" }}>
+									Guava
+								</h2>
 							</div>
 						</div>
-						<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-							<div class="product_box">
-								<figure>
-									<Image src={Product2} alt="#" />
-								</figure>
-								<h3>Sweet Ogrange</h3>
+					</div>
+					<div className="col-md-5 mt-[3rem]">
+						<div
+							class="card product-bg3"
+							style={{ width: "15rem;", height: "15rem" }}
+						>
+							<div class="card-body text-center mt-[4rem]">
+								<h2 class="card-title " style={{ color: "white" }}>
+									Loquat
+								</h2>
 							</div>
 						</div>
-						<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 padding_right0">
-							<div class="product_box">
-								<figure>
-									<Image src={Product3} alt="#" />
-								</figure>
-								<h3>Guava</h3>
-							</div>
-						</div>
-						<div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 padding_left0">
-							<div class="product_box">
-								<figure>
-									<Image src={Product4} width={1100} alt="#" />
-								</figure>
-								<h3>Loquat</h3>
-							</div>
-						</div>
-						<div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 padding_right0">
-							<div class="product_box">
-								<figure>
-									<Image src={Product5} alt="#" />
-								</figure>
-								<h3 className="black">Peaches</h3>
+					</div>
+					<div className="col-md-5 mt-[3rem]">
+						<div
+							class="card product-bg4"
+							style={{ width: "15rem;", height: "15rem" }}
+						>
+							<div class="card-body text-center mt-[4rem]">
+								<h2 class="card-title " style={{ color: "white" }}>
+									Peaches
+								</h2>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+
 			<Testimonials />
 			<div className="container">
 				<h1 className="text-center font-extrabold leading-normal">
