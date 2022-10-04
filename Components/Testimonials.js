@@ -1,15 +1,22 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Image from "next/image";
 import Avatar1 from "../styles/images/avatar1.jpeg";
 import Avatar2 from "../styles/images/avatar2.jpeg";
 import Avatar3 from "../styles/images/avatar3.jpeg";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Testimonials = () => {
+	useEffect(() => {
+		AOS.init({
+			duration: 2000,
+		});
+	}, []);
   return (
-		<div className="container my-24 px-6 margin-mobile  ">
+		<div className="container my-24 px-6 margin-mobile  " data-aos="zoom-in-up">
 			{" "}
 			<section class="mb-32 text-gray-800 text-center">
-				<h2 class="text-3xl font-bold mb-12">Testimonials</h2>
+				<h2 class="text-3xl font-bold mb-12">What Our Clients Says</h2>
 
 				<div
 					id="carouselExampleCaptions"

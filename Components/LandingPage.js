@@ -16,7 +16,7 @@ const LandingPage = (props) => {
 					{props.desc}
 				</p>
 				<a
-					href="tel:+92-21-34390018"
+					href="tel:+92-3459371589"
 					className="u-btn u-button-style u-palette-2-base u-btn-1"
 				>
 					Reach Us

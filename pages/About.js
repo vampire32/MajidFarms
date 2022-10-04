@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import LandingPage from '../Components/LandingPage';
 import Navbar from '../Components/Navbar';
 import { AiFillPlayCircle } from "react-icons/ai";
@@ -8,10 +8,21 @@ import { BiAnchor } from "react-icons/bi";
 import Image from "next/image";
 import BM from "../styles/images/about-business-man.jpg";
 import Footer from '../Components/Footer';
+import Head from 'next/head';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const About = () => {
+	useEffect(() => {
+		AOS.init({
+			duration: 2000,
+		});
+	}, []);
   return (
 		<div>
+			<Head>
+				<title>About Us</title>
+			</Head>
 			<section
 				className="u-align-center u-clearfix u-gradient u-section1"
 				src=""

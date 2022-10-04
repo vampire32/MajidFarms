@@ -20298,42 +20298,6 @@ html {
   padding: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  line-height: 1.2;
-  font-weight: 500;
-  color: inherit;
-}
-
-h1 {
-  font-size: 2.25rem;
-}
-
-h2 {
-  font-size: 1.5rem;
-}
-
-h3 {
-  font-size: 1.25rem;
-}
-
-h4 {
-  font-size: 1.25rem;
-}
-
-h5 {
-  font-size: 1.125rem;
-}
-
-h6 {
-  font-size: 1.125rem;
-}
 
 p {
   margin-top: 0;
@@ -30479,7 +30443,7 @@ section.u-palette-1-base:before,
 .u-button-style.u-palette-1-base,
 .u-button-style.u-palette-1-base[class*="u-border-"] {
   color: #ffffff !important;
-  background-color: #232b79 !important;
+  background-color: #2D5A27 !important;
 }
 
 .u-button-style.u-palette-1-base:hover,
@@ -30493,7 +30457,7 @@ section.u-palette-1-base:before,
 li.active>.u-button-style.u-button-style.u-palette-1-base,
 li.active>.u-button-style.u-button-style.u-palette-1-base[class*="u-border-"] {
   color: #ffffff !important;
-  background-color: #20276d !important;
+  background-color: #2D5A27!important;
 }
 
 .u-hover-palette-1-base:hover,
