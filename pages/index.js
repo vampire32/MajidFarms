@@ -55,14 +55,10 @@ export default function Home() {
 					<Navbar />
 					<div className="u-clearfix u-sheet u-sheet-1">
 						<h1 className="u-align-left u-text u-text-palette-3-base u-text-1">
-							<b>Majid Fruit Farms</b>
-							<br />
-							<b style={{ color: "white" }}> c​ompany</b>
+							Majid Farms and Fruits Supplier (It’s all about you!)
 						</h1>
 						<p className="u-text u-text-body-alt-color u-text-3">
-							We are famous for our excellent oranges, but we also have a
-							variety of other fruits, including peaches, guavas, and loquats.
-							We offer our fruits to a large number of consumers.
+							MFFS is a grower, packer, and supplier. We have a dedicated team of qualified professionals committed to producing high-quality products. We offer a variety of fruits, vegetables, and herbal teas on a wholesale and retail basis, including but not limited to Blood Red Oranges, California Peaches, Spanish Loquats, Guavas, and Olives.  So why wait? Give us a call and place your order, and we will be happy to serve you as we believe it’s all about you!
 							<b>
 								<i>
 									“
@@ -417,7 +413,7 @@ export default function Home() {
 						>
 							<div class="card-body text-center mt-[4rem]">
 								<h2 class="card-title " style={{ color: "white" }}>
-									Cara Navel Ogrange
+									Oranges
 								</h2>
 							</div>
 						</div>
