@@ -4,6 +4,9 @@
   content: "";
   height: 0;
 }
+.collapse{
+  visibility: visible!important;
+}
 
 .fr-hide-by-clipping {
   position: absolute;

@@ -42,7 +42,7 @@ const Services = () => {
 					<h2 className="text-center pb-[5rem]">Our Services</h2>
 					<div class="row justify-content-between text-center text-md-left">
 						<div
-							data-aos="fade-right"
+							data-aos="fade-up"
 							data-aos-duration="1000"
 							data-aos-once="true"
 							class="col-md-6"
@@ -55,7 +55,7 @@ const Services = () => {
 							</p>
 						</div>
 						<div
-							data-aos="fade-left"
+							data-aos="fade-up"
 							data-aos-duration="1000"
 							data-aos-once="true"
 							class="col-md-6 align-self-center"
@@ -74,7 +74,7 @@ const Services = () => {
 				<div class="container">
 					<div class="row justify-content-between text-center text-md-left">
 						<div
-							data-aos="fade-left"
+							data-aos="fade-up"
 							data-aos-duration="1000"
 							data-aos-once="true"
 							class="col-md-6 flex-md-last"
@@ -86,7 +86,7 @@ const Services = () => {
 							</p>
 						</div>
 						<div
-							data-aos="fade-right"
+							data-aos="fade-up"
 							data-aos-duration="1000"
 							data-aos-once="true"
 							class="col-md-6 align-self-center flex-md-first"
@@ -105,7 +105,7 @@ const Services = () => {
 				<div class="container my-5">
 					<div class="row justify-content-between text-center text-md-left">
 						<div
-							data-aos="fade-left"
+							data-aos="fade-up"
 							data-aos-duration="1000"
 							data-aos-once="true"
 							class="col-md-6 align-self-center"
@@ -115,7 +115,7 @@ const Services = () => {
 							</div>
 						</div>
 						<div
-							data-aos="fade-right"
+							data-aos="fade-up"
 							data-aos-duration="1000"
 							data-aos-once="true"
 							class="col-md-6"
@@ -137,7 +137,7 @@ const Services = () => {
 				<div class="container">
 					<div class="row justify-content-between text-center text-md-left">
 						<div
-							data-aos="fade-left"
+							data-aos="fade-up"
 							data-aos-duration="1000"
 							data-aos-once="true"
 							class="col-md-6 flex-md-last"
@@ -150,7 +150,7 @@ const Services = () => {
 							</p>
 						</div>
 						<div
-							data-aos="fade-right"
+							data-aos="fade-up"
 							data-aos-duration="1000"
 							data-aos-once="true"
 							class="col-md-6 align-self-center flex-md-first"

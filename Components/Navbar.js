@@ -29,7 +29,7 @@ const Navbar = () => {
 						<span className="navbar-toggler-icon"></span>
 					</button>
 					<div
-						className="collapse navbar-collapse navbar-design justify-content-center"
+						className=" navbar-collapse navbar-design justify-content-center"
 						id="navbarSupportedContent"
 					>
 						<ul className="navbar-nav  ">

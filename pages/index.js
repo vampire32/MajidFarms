@@ -142,7 +142,7 @@ export default function Home() {
 				<div class="container my-5">
 					<div class="row justify-content-between text-center text-md-left">
 						<div
-							data-aos="fade-right"
+							data-aos="fade-up"
 							data-aos-duration="1000"
 							data-aos-once="true"
 							class="col-md-6"
@@ -155,7 +155,7 @@ export default function Home() {
 							</p>
 						</div>
 						<div
-							data-aos="fade-left"
+							data-aos="fade-up"
 							data-aos-duration="1000"
 							data-aos-once="true"
 							class="col-md-6 align-self-center"
@@ -174,7 +174,7 @@ export default function Home() {
 				<div class="container">
 					<div class="row justify-content-between text-center text-md-left">
 						<div
-							data-aos="fade-left"
+							data-aos="fade-up"
 							data-aos-duration="1000"
 							data-aos-once="true"
 							class="col-md-6 flex-md-last"
@@ -186,7 +186,7 @@ export default function Home() {
 							</p>
 						</div>
 						<div
-							data-aos="fade-right"
+							data-aos="fade-up"
 							data-aos-duration="1000"
 							data-aos-once="true"
 							class="col-md-6 align-self-center flex-md-first"
@@ -205,7 +205,7 @@ export default function Home() {
 				<div class="container my-5">
 					<div class="row justify-content-between text-center text-md-left">
 						<div
-							data-aos="fade-left"
+							data-aos="fade-up"
 							data-aos-duration="1000"
 							data-aos-once="true"
 							class="col-md-6 align-self-center"
@@ -215,7 +215,7 @@ export default function Home() {
 							</div>
 						</div>
 						<div
-							data-aos="fade-right"
+							data-aos="fade-up"
 							data-aos-duration="1000"
 							data-aos-once="true"
 							class="col-md-6"
@@ -237,7 +237,7 @@ export default function Home() {
 				<div class="container">
 					<div class="row justify-content-between text-center text-md-left">
 						<div
-							data-aos="fade-left"
+							data-aos="fade-up"
 							data-aos-duration="1000"
 							data-aos-once="true"
 							class="col-md-6 flex-md-last"
@@ -250,7 +250,7 @@ export default function Home() {
 							</p>
 						</div>
 						<div
-							data-aos="fade-right"
+							data-aos="fade-up"
 							data-aos-duration="1000"
 							data-aos-once="true"
 							class="col-md-6 align-self-center flex-md-first"
