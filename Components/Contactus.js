@@ -5,7 +5,7 @@ const Contactus = () => {
 		<section className="contact_section layout_padding">
 			<div className="container ">
 				<div className="heading_container">
-					<h2 className="">Make a Order</h2>
+					<h2 className="">Make an Order</h2>
 				</div>
 			</div>
 			<div className="container">
