@@ -38,7 +38,7 @@ const Footer = () => {
 							</li>
 							<li>
 								<Link href="/Services">
-									<a>Services</a>
+									<a>Product</a>
 								</Link>
 							</li>
 
@@ -47,38 +47,15 @@ const Footer = () => {
 									<a>About Us</a>
 								</Link>
 							</li>
+							<li>
+								<Link href="/About">
+									<a>Contact us</a>
+								</Link>
+							</li>
 						</ul>
 					</div>
 					<div className="col-md">
 						<ul className="list-unstyled nav-links"></ul>
-					</div>
-
-					<div className="col-md text-md-center">
-						<ul className="social list-unstyled">
-							<li>
-								<a href="#">
-									<span className="icon-instagram">
-										<BsLinkedin size="2em" />
-									</span>
-								</a>
-							</li>
-							<li className="ml-16">
-								<a
-									href="https://www.facebook.com/USS-Enterprises-101631834747302/"
-									target="_blank"
-									rel="noreferrer"
-								>
-									<span className="icon-facebook">
-										<BsFacebook size="2em" />
-									</span>
-								</a>
-							</li>
-						</ul>
-						<p className="">
-							<Link href="/Contact">
-								<a className="btn btn-primary">Contact Us</a>
-							</Link>
-						</p>
 					</div>
 				</div>
 

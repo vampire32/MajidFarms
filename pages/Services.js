@@ -39,7 +39,7 @@ const Services = () => {
 				id="feature-first"
 			>
 				<div class="container my-5">
-					<h2 className="text-center pb-[5rem]">Our Services</h2>
+					<h2 className="text-center pb-[5rem]">Products</h2>
 					<div class="row justify-content-between text-center text-md-left">
 						<div
 							data-aos="fade-up"

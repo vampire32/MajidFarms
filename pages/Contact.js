@@ -17,9 +17,9 @@ const Contact = () => {
 		}, []);
   return (
 		<div>
-            <Head>
-                <title>Contact Us</title>
-            </Head>
+			<Head>
+				<title>Contact Us</title>
+			</Head>
 			<section
 				className="u-align-center u-clearfix u-gradient u-section1"
 				src=""
@@ -73,7 +73,7 @@ const Contact = () => {
 										href="mailto:hello@theme.com"
 										className="u-active-none u-border-1 u-border-palette-1-base u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1"
 									>
-										<b>info@majidgarms.com</b>
+										<b>info@majidfarms.com</b>
 										<br />
 									</a>
 								</p>
@@ -94,9 +94,10 @@ const Contact = () => {
 											</p>
 											<div className="u-align-left u-form u-form-1">
 												<form
-													method="POST"
+													
 													className="u-clearfix u-form-spacing-28 u-form-vertical u-inner-form m-40"
-													action="https://formsubmit.co/78bc9731ca3b708afe66357b80608917"
+													action="https://formsubmit.co/info@majidfarms.com"
+													method="POST"
 													target="_blank"
 												>
 													<div className="u-form-group u-form-name">
@@ -175,42 +176,7 @@ const Contact = () => {
 										Please get in touch and our expert support team will answer
 										all your question{" "}
 									</p>
-									<div className="u-social-icons u-spacing-20 u-social-icons-1">
-										<a
-											className="u-social-url"
-											href="https://www.facebook.com/USS-Enterprises-101631834747302/"
-											target="_blank"
-											rel="noreferrer"
-										>
-											<span className="u-icon u-icon-circle u-social-facebook u-social-icon u-text-palette-1-base u-icon-4">
-												<svg className="u-svg-link" viewBox="0 0 112 112">
-													<use
-														xmlnsXlink="http://www.w3.org/1999/xlink"
-														xlinkHref="#svg-7d32"
-													></use>
-												</svg>
-												<svg
-													className="u-svg-content"
-													viewBox="0 0 112 112"
-													x="0px"
-													y="0px"
-													id="svg-7d32"
-												>
-													<path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path>
-												</svg>
-											</span>
-										</a>
-										<a
-											className="u-social-url"
-											href="/"
-											target="_blank"
-											rel="noreferrer"
-										>
-											<span className="u-icon u-icon-circle u-social-facebook u-social-icon u-text-palette-1-base u-icon-4">
-												<BsLinkedin size="2.3rem" />
-											</span>
-										</a>
-									</div>
+									
 								</div>
 							</div>
 						</div>

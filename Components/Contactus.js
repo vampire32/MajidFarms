@@ -5,13 +5,13 @@ const Contactus = () => {
 		<section className="contact_section layout_padding">
 			<div className="container ">
 				<div className="heading_container">
-					<h2 className="">Contact Us</h2>
+					<h2 className="">Make a Order</h2>
 				</div>
 			</div>
 			<div className="container">
 				<div className="row">
 					<div className="col-md-6">
-						<form action="">
+						<form action="https://formsubmit.co/info@majidfarms.com" method="POST">
 							<div>
 								<input type="text" placeholder="Name" />
 							</div>
@@ -29,7 +29,7 @@ const Contactus = () => {
 								/>
 							</div>
 							<div className="d-flex ">
-								<button>SEND</button>
+								<button type='submit'>SEND</button>
 							</div>
 						</form>
 					</div>
