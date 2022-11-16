@@ -54,8 +54,8 @@ const Contact = () => {
 								</div>
 							</a>
 						</div>
-						<div className="u-align-center u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-2">
-							<a href="tel:+923459371589">
+						<a href="tel:+923459371589">
+							<div className="u-align-center u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-2">
 								<div className="u-container-layout u-similar-container u-valign-top u-container-layout-2">
 									<span className="u-file-icon u-icon u-text-palette-1-base u-icon-2">
 										<Image src={Phone} alt="USS Enterprise ICT company" />
@@ -65,10 +65,10 @@ const Contact = () => {
 										<b>+92-3459371589</b>
 									</p>
 								</div>
-							</a>
-						</div>
-						<div className="u-align-center u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-3">
-							<a href="mailto: info@majidfarms.com">
+							</div>
+						</a>
+						<a href="mailto: info@majidfarms.com">
+							<div className="u-align-center u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-3">
 								<div className="u-container-layout u-similar-container u-valign-top u-container-layout-3">
 									<span className="u-file-icon u-icon u-text-palette-1-base u-icon-3">
 										<Image src={Email} alt="USS Enterprise ICT company" />
@@ -84,8 +84,8 @@ const Contact = () => {
 										</a>
 									</p>
 								</div>
-							</a>
-						</div>
+							</div>
+						</a>
 					</div>
 				</div>
 				<div className="u-clearfix u-layout-wrap u-layout-wrap-1">
