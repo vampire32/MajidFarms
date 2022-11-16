@@ -16,7 +16,7 @@ const Footer = () => {
 							href="#"
 							className="footer-site-logo d-block mb-4"
 						>
-							Majid Farms
+							Majid Farms & Fruit Suppiler
 						</a>
 						<p>
 							Our goal is to transform the food system by offering a wholesome,
@@ -63,7 +63,7 @@ const Footer = () => {
 					<div className="col-12 text-center">
 						<div className="copyright mt-5 pt-5">
 							<p>
-								<small>&copy; 2022 All Rights Reserved - Majid Farms </small>
+								<small>&copy; 2022 All Rights Reserved - Majid Farms & Fruit Suppiler </small>
 							</p>
 						</div>
 					</div>

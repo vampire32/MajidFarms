@@ -12,9 +12,7 @@ const LandingPage = (props) => {
 				>
 					{props.Name}
 				</h1>
-				<p className="u-large-text u-text u-text-body-alt-color u-text-default u-text-variant u-text-2">
-					{props.desc}
-				</p>
+				
 				<a
 					href="tel:+92-3459371589"
 					className="u-btn u-button-style u-palette-2-base u-btn-1"

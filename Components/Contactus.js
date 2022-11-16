@@ -5,7 +5,7 @@ const Contactus = () => {
 		<section className="contact_section layout_padding">
 			<div className="container ">
 				<div className="heading_container">
-					<h2 className="">Make an Order</h2>
+					<h2 className="">Place an Order</h2>
 				</div>
 			</div>
 			<div className="container">
@@ -37,7 +37,7 @@ const Contactus = () => {
 						<div className="map_container">
 							<div className="map-responsive">
 								<iframe
-									src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=G359+QHW+MajidFarmsandFruitsSuppliers+Plai+UniversityofMalakand+Malakand+Khyber+Pakhtunkhwa"
+									src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=G359+QHW+MajidFarmsandFruitsSuppliers+Plai+Malakand+Khyber+Pakhtunkhwa"
 									width="600"
 									height="300"
 									frameborder="0"

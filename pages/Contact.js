@@ -40,16 +40,19 @@ const Contact = () => {
 				<div className="u-list u-list-1">
 					<div className="u-repeater u-repeater-1">
 						<div className="u-align-center u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-1">
-							<div className="u-container-layout u-similar-container u-valign-top u-container-layout-1">
-								<span className="u-file-icon u-icon u-text-palette-1-base u-icon-1">
-									<Image src={Office} alt="USS Enterprise ICT company" />
-								</span>
-								<h3 className="u-text u-text-1">our main office</h3>
-								<p className="u-text u-text-2">
-									Majid Farms and Fruits Suppliers, Plai, University of
-									Malakand, Malakand, Khyber Pakhtunkhwa
-								</p>
-							</div>
+							<a href="https://www.google.com/maps/place/Majid+Farms+and+Fruits+Suppliers/@34.5094906,72.0667648,17z/data=!3m1!4b1!4m5!3m4!1s0x38dea94e6d4f5971:0xce8c5b82129280ed!8m2!3d34.50952!4d72.0689749">
+								<div className="u-container-layout u-similar-container u-valign-top u-container-layout-1">
+									<span className="u-file-icon u-icon u-text-palette-1-base u-icon-1">
+										<Image src={Office} alt="USS Enterprise ICT company" />
+									</span>
+
+									<h3 className="u-text u-text-1">our main office</h3>
+									<p className="u-text u-text-2">
+										Majid Farms and Fruits Suppliers, Plai, University of
+										Malakand, Malakand, Khyber Pakhtunkhwa
+									</p>
+								</div>
+							</a>
 						</div>
 						<div className="u-align-center u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-2">
 							<div className="u-container-layout u-similar-container u-valign-top u-container-layout-2">
@@ -94,7 +97,6 @@ const Contact = () => {
 											</p>
 											<div className="u-align-left u-form u-form-1">
 												<form
-													
 													className="u-clearfix u-form-spacing-28 u-form-vertical u-inner-form m-40"
 													action="https://formsubmit.co/info@majidfarms.com"
 													method="POST"
@@ -176,7 +178,6 @@ const Contact = () => {
 										Please get in touch and our expert support team will answer
 										all your question{" "}
 									</p>
-									
 								</div>
 							</div>
 						</div>

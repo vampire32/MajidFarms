@@ -14,7 +14,6 @@ const Testimonials = () => {
 	}, []);
   return (
 		<div className="container my-24 px-6 margin-mobile  " data-aos="zoom-in-up">
-			{" "}
 			<section class="mb-32 text-gray-800 text-center">
 				<h2 class="text-3xl font-bold mb-12">What Our Clients Says</h2>
 

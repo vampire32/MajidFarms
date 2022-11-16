@@ -84,10 +84,7 @@ const About = () => {
 								</h3>
 								<p className="u-align-justify u-custom-item u-text u-text-4">
 									<span>
-										&nbsp; Our vision is simple to be an effectivevalue-added
-										technology partner trusted by its clients through our
-										consultative selling, support and services for their every
-										exploration with innovations.&nbsp;&nbsp;
+										
 									</span>
 									<br />
 								</p>
@@ -103,11 +100,7 @@ const About = () => {
 								</h3>
 								<p className="u-align-justify u-custom-item u-text u-text-palette-1-base u-text-6">
 									<span className="u-text-body-alt-color">
-										&nbsp; Creating a powerful and valued brand associated to
-										being a trusted corporate strategy consultant that will be
-										synonymous with developing and addressing the business
-										problems of customers through technological change and
-										innovation.&nbsp;&nbsp;
+										
 									</span>
 									<br />
 								</p>
@@ -120,15 +113,7 @@ const About = () => {
 								</h3>
 								<p className="u-align-justify u-custom-item u-text u-text-8">
 									<span>
-										Committed with dedication.
-										<br />
-										&nbsp;Teamwork &amp; Synchronization.&nbsp;
-										<br />
-										Compliance professionally
-										<br />
-										Best Recommendations.
-										<br />
-										&nbsp;Consultancy with Excellency.&nbsp;&nbsp;
+										
 									</span>
 									<br />
 								</p>
@@ -178,9 +163,7 @@ const About = () => {
 											<div class="choose_text">
 												<h3>EAT MORE HEALTHILY</h3>
 												<p>
-													To consume the recommended daily servings of fruits
-													you must have produce delivered to your house or place
-													of business on a regular basis.
+													
 												</p>
 											</div>
 										</div>
@@ -193,9 +176,7 @@ const About = () => {
 											<div class="choose_text">
 												<h3>Quality And Reliability</h3>
 												<p>
-													Since we previously stated that we believe in quality
-													over quantity, the quality of the fruits is assessed
-													before delivery.
+													
 												</p>
 											</div>
 										</div>
@@ -208,9 +189,7 @@ const About = () => {
 											<div class="choose_text">
 												<h3>Expert Farmer</h3>
 												<p>
-													Our skilled farmers are aware of the quality of the
-													seeds, soil, and products and are aware of when the
-													products should be harvested.
+													
 												</p>
 											</div>
 										</div>
@@ -247,20 +226,7 @@ const About = () => {
 										What We Do
 									</span>
 									<p className="u-align-justify u-text u-text-body-alt-color u-text-2">
-										Our goal is to transform the food system by offering a
-										wholesome, natural substitute for processed food. We offer
-										more than just organic produce delivery. We are lucky to be
-										able to provide it to our family because we manually gather
-										it. Come to one of our farm events so we can give you a
-										handshake and express our gratitude. To consume the
-										recommended daily servings of fruits you must have produce
-										delivered to your house, workplace, or a designated pickup
-										site on a regular basis. Select (and modify) the boxs size
-										and configuration to suit your needs. To accommodate your
-										schedule, you can even miss deliveries or alter the
-										frequency of your deliveries. You have the opportunity to
-										get to know your farmer and take an active role in our
-										farming community.
+									
 									</p>
 								</div>
 							</div>
