@@ -55,32 +55,36 @@ const Contact = () => {
 							</a>
 						</div>
 						<div className="u-align-center u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-2">
-							<div className="u-container-layout u-similar-container u-valign-top u-container-layout-2">
-								<span className="u-file-icon u-icon u-text-palette-1-base u-icon-2">
-									<Image src={Phone} alt="USS Enterprise ICT company" />
-								</span>
-								<h3 className="u-text u-text-3">phone number</h3>
-								<p className="u-text u-text-4">
-									<b>+92-3459371589</b>
-								</p>
-							</div>
+							<a href="tel:+923459371589">
+								<div className="u-container-layout u-similar-container u-valign-top u-container-layout-2">
+									<span className="u-file-icon u-icon u-text-palette-1-base u-icon-2">
+										<Image src={Phone} alt="USS Enterprise ICT company" />
+									</span>
+									<h3 className="u-text u-text-3">phone number</h3>
+									<p className="u-text u-text-4">
+										<b>+92-3459371589</b>
+									</p>
+								</div>
+							</a>
 						</div>
 						<div className="u-align-center u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-3">
-							<div className="u-container-layout u-similar-container u-valign-top u-container-layout-3">
-								<span className="u-file-icon u-icon u-text-palette-1-base u-icon-3">
-									<Image src={Email} alt="USS Enterprise ICT company" />
-								</span>
-								<h3 className="u-text u-text-5">Email</h3>
-								<p className="u-text u-text-6">
-									<a
-										href="mailto:hello@theme.com"
-										className="u-active-none u-border-1 u-border-palette-1-base u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1"
-									>
-										<b>info@majidfarms.com</b>
-										<br />
-									</a>
-								</p>
-							</div>
+							<a href="mailto: info@majidfarms.com">
+								<div className="u-container-layout u-similar-container u-valign-top u-container-layout-3">
+									<span className="u-file-icon u-icon u-text-palette-1-base u-icon-3">
+										<Image src={Email} alt="USS Enterprise ICT company" />
+									</span>
+									<h3 className="u-text u-text-5">Email</h3>
+									<p className="u-text u-text-6">
+										<a
+											href="mailto:hello@theme.com"
+											className="u-active-none u-border-1 u-border-palette-1-base u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1"
+										>
+											<b>info@majidfarms.com</b>
+											<br />
+										</a>
+									</p>
+								</div>
+							</a>
 						</div>
 					</div>
 				</div>
