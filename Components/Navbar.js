@@ -14,7 +14,7 @@ const Navbar = () => {
 					<a className="navbar-brand">
 						<Image src={Logo} alt="" width={40} height={40} />
 						<a style={{marginLeft:"2rem"}}>
-							<Link href="/">MAJID FARMS & FRUIT SUPPLIER</Link>
+							<Link href="/">Majid Farms & Fruit Suppliers</Link>
 						</a>
 					</a>
 					<button
